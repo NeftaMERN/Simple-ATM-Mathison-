@@ -19,7 +19,7 @@ login_btn.addEventListener("click", () => {
 
     chackbalance_btn.className = "withdo"
 
-    withdrow_btn.innerText = "chack"
+    withdrow_btn.innerText = "withdrow"
 
     deposit_btn.innerText = "diposit"
 
