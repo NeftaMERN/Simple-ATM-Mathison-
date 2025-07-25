@@ -47,10 +47,21 @@ body {
 
 .login_input {
 
+    width: 300px;
     margin: 20px;
     padding: 10px;
     border-radius: 10px;
     outline: none;
     border-color: aqua;
+
+}
+
+.login-button {
+
+    width: 100px;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: aqua;
 
 }
