@@ -5,6 +5,7 @@ body {
     justify-content: center;
     display: flex;
     height: 100vh;
+    background-color: black;
 
 }
 
@@ -41,5 +42,15 @@ body {
     padding: 10px;
     border-radius: 10px;
     
+
+}
+
+.login_input {
+
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    border-color: aqua;
 
 }
