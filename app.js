@@ -13,8 +13,13 @@ login_btn.addEventListener("click", () => {
 
     let deposit_btn = document.createElement("button");
     let withdrow_btn = document.createElement("button");
+    let chackbalance_btn = document.createElement("button");
 
-    withdrow_btn.innerText = "withdrow"
+    chackbalance_btn.innerText = "Chack balance"
+
+    chackbalance_btn.className = "withdo"
+
+    withdrow_btn.innerText = "dipo"
 
     deposit_btn.innerText = "diposit"
 
@@ -91,6 +96,7 @@ login_btn.addEventListener("click", () => {
 
     container.appendChild(withdrow_btn)
     container.appendChild(deposit_btn)
+    container.appendChild(chackbalance_btn)
 
   } else {
 
