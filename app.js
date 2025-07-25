@@ -32,6 +32,8 @@ login_btn.addEventListener("click", () => {
       let btn_withdrow = document.createElement("button");
       btn_withdrow.innerText = "withdrow"
 
+      btn_withdrow.className = "pyment_btn"
+
       btn_withdrow.addEventListener("click", () => {
 
         const withdrow = parseFloat(withdrow_input.value)
@@ -62,6 +64,8 @@ login_btn.addEventListener("click", () => {
 
       let input_btn = document.createElement("button")
       input_btn.innerText = "deposit"
+
+      input_btn.className = "pyment_btn"
 
       input_btn.addEventListener("click", () => {
       
