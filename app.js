@@ -27,7 +27,7 @@ login_btn.addEventListener("click", () => {
       let withdrow_input = document.createElement("input");
       withdrow_input.placeholder = "Enter Amount";
 
-      withdrow_btn.className = "type_input"
+      withdrow_input.className = "type_input"
 
       let btn_withdrow = document.createElement("button");
       btn_withdrow.innerText = "withdrow"
