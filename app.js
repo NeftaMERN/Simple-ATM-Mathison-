@@ -20,6 +20,8 @@ login_btn.addEventListener("click", () => {
 
     deposit_btn.className = "dipo"
 
+    withdrow_btn.className = "withdo"
+
     withdrow_btn.addEventListener("click", () => {
 
       let withdrow_input = document.createElement("input");
