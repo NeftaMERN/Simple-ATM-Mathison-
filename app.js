@@ -93,6 +93,12 @@ login_btn.addEventListener("click", () => {
 
     })
 
+    chackbalance_btn.addEventListener("click", () => {
+
+      alert("Your balance is" + balance)
+
+    })
+
 
     container.appendChild(withdrow_btn)
     container.appendChild(deposit_btn)
