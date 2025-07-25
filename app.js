@@ -61,7 +61,7 @@ login_btn.addEventListener("click", () => {
       inpu.className = "type_input"
 
       let input_btn = document.createElement("button")
-      input_btn.innerText = "submit"
+      input_btn.innerText = "deposit"
 
       input_btn.addEventListener("click", () => {
       
