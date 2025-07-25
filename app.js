@@ -94,7 +94,7 @@ login_btn.addEventListener("click", () => {
 
   } else {
 
-    alert("wrong")
+    alert("wrong pin")
 
   }
 
